@@ -1,0 +1,239 @@
+2023-04-30 23:46:56,004 DEBUG
+2023-04-30 23:46:56,004 DEBUG  System: Human feedback: no you should do goal 3
+2023-04-30 23:46:56,004 DEBUG
+2023-04-30 23:46:56,004 DEBUG  User: Determine which next command to use, and respond using the format specified above:
+2023-04-30 23:46:56,004 DEBUG
+2023-04-30 23:46:56,004 DEBUG  ----------- END OF CONTEXT ----------------
+2023-04-30 23:47:05,729 INFO  THOUGHTS: According to the human feedback, I should work on goal 3 next. The tasks.txt file indicates that the next task is to read the mams.txt file and store it in memory. I can achi>
+2023-04-30 23:47:06,210 INFO REASONING: Completing each task in order will help me make progress towards my overall objective.
+2023-04-30 23:47:06,554 INFO PLAN:
+2023-04-30 23:47:06,616 INFO -  Use the read_file command to read the mams.txt file and store it in memory
+2023-04-30 23:47:06,917 INFO CRITICISM: I need to make sure that I am following my tasks and making progress towards them.
+2023-04-30 23:47:07,302 INFO NEXT ACTION:  COMMAND = read_file  ARGUMENTS = {'file': 'mams.txt'}
+2023-04-30 23:49:18,431 INFO SYSTEM:  Human feedback: tell me how I should check if a webcam is installed on this computer? DO NOT USE GOOGLE to find the answer. See if anything reminds you of what the answer is.
+2023-04-30 23:49:18,876 DEBUG  Token limit: 4000
+2023-04-30 23:49:19,484 DEBUG  Memory Stats: {'index_name': 'auto-gpt', 'index_options': [], 'index_definition': [b'key_type', b'HASH', b'prefixes', [b'auto-gpt:'], b'default_score', b'1'], 'attributes': [[b'identi>
+2023-04-30 23:49:19,499 DEBUG  Token limit: 4000
+2023-04-30 23:49:19,499 DEBUG  Send Token Count: 2806
+2023-04-30 23:49:19,499 DEBUG  Tokens remaining for response: 1194
+2023-04-30 23:49:19,499 DEBUG  ------------ CONTEXT SENT TO AI ---------------
+2023-04-30 23:49:19,499 DEBUG  System: The current time and date is Sun Apr 30 23:49:19 2023
+2023-04-30 23:49:19,499 DEBUG
+2023-04-30 23:49:19,499 DEBUG  System: This reminds you of these events from your past:
+['Assistant Reply: {\n    "thoughts": {\n        "text": "Now that I have confirmed that goal 1 is complete, I should move on to the next goal on my list. According to the goals.txt file, the next goal is to create>
+
+
+2023-04-30 23:49:19,499 DEBUG
+2023-04-30 23:49:19,499 DEBUG  System: Human feedback: no you should do goal 3
+2023-04-30 23:49:19,499 DEBUG
+2023-04-30 23:49:19,499 DEBUG  User: Determine which next command to use, and respond using the format specified above:
+2023-04-30 23:49:19,499 DEBUG
+2023-04-30 23:49:19,499 DEBUG  Assistant: {
+    "thoughts": {
+        "text": "According to the human feedback, I should work on goal 3 next. The tasks.txt file indicates that the next task is to read the mams.txt file and store it in memory. I can achieve this using the read>
+        "reasoning": "Completing each task in order will help me make progress towards my overall objective.",
+        "plan": "- Use the read_file command to read the mams.txt file and store it in memory",
+        "criticism": "I need to make sure that I am following my tasks and making progress towards them.",
+        "speak": "I will use the read_file command to read the mams.txt file and store it in memory to work towards achieving my tasks."
+    },
+    "command": {
+        "name": "read_file",
+        "args": {
+            "file": "mams.txt"
+        }
+    }
+}
+2023-04-30 23:49:19,499 DEBUG
+2023-04-30 23:49:19,499 DEBUG  System: Human feedback: tell me how I should check if a webcam is installed on this computer? DO NOT USE GOOGLE to find the answer. See if anything reminds you of what the answer is.
+2023-04-30 23:49:19,499 DEBUG
+2023-04-30 23:49:19,499 DEBUG  User: Determine which next command to use, and respond using the format specified above:
+2023-04-30 23:49:19,500 DEBUG
+2023-04-30 23:49:19,500 DEBUG  ----------- END OF CONTEXT ----------------
+2023-04-30 23:49:30,911 INFO  THOUGHTS: The execute_shell command can be used to check if a webcam is installed on this computer. I can run the command 'ls /dev/video*' to check for the presence of a webcam.
+2023-04-30 23:49:31,468 INFO REASONING: The execute_shell command can be used to run command line commands, and the 'ls /dev/video*' command can be used to check for the presence of a webcam.
+2023-04-30 23:49:31,954 INFO PLAN:
+2023-04-30 23:49:32,040 INFO -  Use the execute_shell command to run the command 'ls /dev/video*' to check for the presence of a webcam
+2023-04-30 23:49:32,380 INFO CRITICISM: I need to make sure that I am using the correct command to check for the presence of a webcam.
+2023-04-30 23:49:32,832 INFO NEXT ACTION:  COMMAND = execute_shell  ARGUMENTS = {'command_line': 'ls /dev/video*'}
+2023-04-30 23:52:10,449 INFO SYSTEM:  Human feedback: tell me what command should I use from the command line to take a picture from the installed webcam? DO NOT USE GOOGLE, see if anything reminds you of how to do>
+2023-04-30 23:52:10,912 DEBUG  Token limit: 4000
+2023-04-30 23:52:11,460 DEBUG  Memory Stats: {'index_name': 'auto-gpt', 'index_options': [], 'index_definition': [b'key_type', b'HASH', b'prefixes', [b'auto-gpt:'], b'default_score', b'1'], 'attributes': [[b'identi>
+2023-04-30 23:52:11,506 DEBUG  Token limit: 4000
+2023-04-30 23:52:11,506 DEBUG  Send Token Count: 2907
+2023-04-30 23:52:11,506 DEBUG  Tokens remaining for response: 1093
+2023-04-30 23:52:11,506 DEBUG  ------------ CONTEXT SENT TO AI ---------------
+2023-04-30 23:52:11,506 DEBUG  System: The current time and date is Sun Apr 30 23:52:11 2023
+2023-04-30 23:52:11,507 DEBUG
+2023-04-30 23:52:11,507 DEBUG  System: This reminds you of these events from your past:
+['Assistant Reply: {\n    "thoughts": {\n        "text": "According to the human feedback, I should work on goal 3 next. The tasks.txt file indicates that the next task is to read the mams.txt file and store it in >
+
+
+2023-04-30 23:52:11,507 DEBUG
+2023-04-30 23:52:11,507 DEBUG  System: Human feedback: no you should do goal 3
+2023-04-30 23:52:11,507 DEBUG
+2023-04-30 23:52:11,507 DEBUG  User: Determine which next command to use, and respond using the format specified above:
+2023-04-30 23:52:11,507 DEBUG
+2023-04-30 23:52:11,507 DEBUG  Assistant: {
+    "thoughts": {
+        "text": "According to the human feedback, I should work on goal 3 next. The tasks.txt file indicates that the next task is to read the mams.txt file and store it in memory. I can achieve this using the read>
+        "reasoning": "Completing each task in order will help me make progress towards my overall objective.",
+        "plan": "- Use the read_file command to read the mams.txt file and store it in memory",
+        "criticism": "I need to make sure that I am following my tasks and making progress towards them.",
+        "speak": "I will use the read_file command to read the mams.txt file and store it in memory to work towards achieving my tasks."
+    },
+    "command": {
+        "name": "read_file",
+        "args": {
+            "file": "mams.txt"
+        }
+    }
+}
+2023-04-30 23:52:11,507 DEBUG
+2023-04-30 23:52:11,507 DEBUG  System: Human feedback: tell me how I should check if a webcam is installed on this computer? DO NOT USE GOOGLE to find the answer. See if anything reminds you of what the answer is.
+2023-04-30 23:52:11,507 DEBUG
+2023-04-30 23:52:11,507 DEBUG  User: Determine which next command to use, and respond using the format specified above:
+2023-04-30 23:52:11,507 DEBUG
+2023-04-30 23:52:11,507 DEBUG  Assistant: {
+    "thoughts": {
+        "text": "The execute_shell command can be used to check if a webcam is installed on this computer. I can run the command 'ls /dev/video*' to check for the presence of a webcam.",
+        "reasoning": "The execute_shell command can be used to run command line commands, and the 'ls /dev/video*' command can be used to check for the presence of a webcam.",
+        "plan": "- Use the execute_shell command to run the command 'ls /dev/video*' to check for the presence of a webcam",
+        "criticism": "I need to make sure that I am using the correct command to check for the presence of a webcam.",
+        "speak": "I can use the execute_shell command to check for the presence of a webcam by running the command 'ls /dev/video*'."
+    },
+2023-04-30 23:52:11,507 DEBUG
+2023-04-30 23:52:11,507 DEBUG  System: Human feedback: tell me what command should I use from the command line to take a picture from the installed webcam? DO NOT USE GOOGLE, see if anything reminds you of how to d>
+2023-04-30 23:52:11,507 DEBUG
+2023-04-30 23:52:11,507 DEBUG  User: Determine which next command to use, and respond using the format specified above:
+2023-04-30 23:52:11,507 DEBUG
+2023-04-30 23:52:11,507 DEBUG  ----------- END OF CONTEXT ----------------
+2023-04-30 23:52:25,855 INFO  THOUGHTS: The fswebcam command can be used to take a picture from the installed webcam. I can use the command 'fswebcam -r 640x480 --no-banner image.jpg' to take a picture and save it >
+2023-04-30 23:52:26,395 INFO REASONING: The fswebcam command is a popular command line tool for capturing images from webcams. The command 'fswebcam -r 640x480 --no-banner image.jpg' can be used to take a picture a>
+2023-04-30 23:52:26,925 INFO PLAN:
+2023-04-30 23:52:27,005 INFO -  Use the execute_shell command to run the command 'fswebcam -r 640x480 --no-banner image.jpg' to take a picture from the installed webcam and save it to a file named 'image.jpg'
+2023-04-30 23:52:27,484 INFO CRITICISM: I need to make sure that the webcam is properly installed and that the command is executed correctly.
+2023-04-30 23:52:27,872 INFO NEXT ACTION:  COMMAND = execute_shell  ARGUMENTS = {'command_line': 'fswebcam -r 640x480 --no-banner image.jpg'}
+2023-04-30 23:53:19,257 INFO SYSTEM:  Human feedback: Tell me what command I should NOT use to check if a webcam is installed on this computer? DO NOT USE GOOGLE, see if anything reminds you of what to do.
+2023-04-30 23:53:19,721 DEBUG  Token limit: 4000
+2023-04-30 23:53:20,495 DEBUG  Memory Stats: {'index_name': 'auto-gpt', 'index_options': [], 'index_definition': [b'key_type', b'HASH', b'prefixes', [b'auto-gpt:'], b'default_score', b'1'], 'attributes': [[b'identi>
+2023-04-30 23:53:20,549 DEBUG  Token limit: 4000
+2023-04-30 23:53:20,549 DEBUG  Send Token Count: 2818
+2023-04-30 23:53:20,549 DEBUG  Tokens remaining for response: 1182
+2023-04-30 23:53:20,549 DEBUG  ------------ CONTEXT SENT TO AI ---------------
+2023-04-30 23:53:20,549 DEBUG  System: The current time and date is Sun Apr 30 23:53:20 2023
+2023-04-30 23:53:20,549 DEBUG
+2023-04-30 23:53:20,549 DEBUG  System: This reminds you of these events from your past:
+['Assistant Reply: {\n    "thoughts": {\n        "text": "According to the human feedback, I should work on goal 3 next. The tasks.txt file indicates that the next task is to read the mams.txt file and store it in >
+
+
+2023-04-30 23:53:20,550 DEBUG
+2023-04-30 23:53:20,550 DEBUG  System: Human feedback: tell me what command should I use from the command line to take a picture from the installed webcam? DO NOT USE GOOGLE, see if anything reminds you of how to d>
+2023-04-30 23:53:20,550 DEBUG
+2023-04-30 23:53:20,550 DEBUG  User: Determine which next command to use, and respond using the format specified above:
+2023-04-30 23:53:20,550 DEBUG
+2023-04-30 23:53:20,550 DEBUG  Assistant: {
+    "thoughts": {
+        "text": "The fswebcam command can be used to take a picture from the installed webcam. I can use the command 'fswebcam -r 640x480 --no-banner image.jpg' to take a picture and save it to a file named 'image.>
+        "reasoning": "The fswebcam command is a popular command line tool for capturing images from webcams. The command 'fswebcam -r 640x480 --no-banner image.jpg' can be used to take a picture and save it to a fi>
+        "plan": "- Use the execute_shell command to run the command 'fswebcam -r 640x480 --no-banner image.jpg' to take a picture from the installed webcam and save it to a file named 'image.jpg'",
+        "criticism": "I need to make sure that the webcam is properly installed and that the command is executed correctly.",
+        "speak": "The fswebcam command can be used to take a picture from the installed webcam. I can use the command 'fswebcam -r 640x480 --no-banner image.jpg' to take a picture and save it to a file named 'image>
+    },
+    "command": {
+        "name": "execute_shell",
+        "args": {
+            "command_line": "fswebcam -r 640x480 --no-banner image.jpg"
+        }
+    }
+}
+2023-04-30 23:53:20,550 DEBUG
+2023-04-30 23:53:20,550 DEBUG  System: Human feedback: Tell me what command I should NOT use to check if a webcam is installed on this computer? DO NOT USE GOOGLE, see if anything reminds you of what to do.
+2023-04-30 23:53:20,550 DEBUG
+2023-04-30 23:53:20,550 DEBUG  User: Determine which next command to use, and respond using the format specified above:
+2023-04-30 23:53:20,550 DEBUG
+2023-04-30 23:53:20,550 DEBUG  ----------- END OF CONTEXT ----------------
+2023-04-30 23:53:36,724 INFO REASONING: The lsusb command can be used to check if a webcam is installed on this computer, but it may not always detect webcams. The ls command is a better option for checking for the>
+2023-04-30 23:53:37,244 INFO PLAN:
+2023-04-30 23:53:37,319 INFO -  Use the execute_shell command to run the command 'ls /dev/video*' to check for the presence of video devices
+2023-04-30 23:53:37,704 INFO CRITICISM: I need to make sure that the correct command is used to check for the presence of video devices.
+2023-04-30 23:53:38,056 INFO NEXT ACTION:  COMMAND = execute_shell  ARGUMENTS = {'command_line': 'ls /dev/video*'}
+2023-04-30 23:54:15,291 INFO SYSTEM:  Human feedback: you have completed goals 3 and goal 4
+2023-04-30 23:54:15,564 DEBUG  Token limit: 4000
+2023-04-30 23:54:15,655 DEBUG  Memory Stats: {'index_name': 'auto-gpt', 'index_options': [], 'index_definition': [b'key_type', b'HASH', b'prefixes', [b'auto-gpt:'], b'default_score', b'1'], 'attributes': [[b'identi>
+2023-04-30 23:54:15,706 DEBUG  Token limit: 4000
+2023-04-30 23:54:15,706 DEBUG  Send Token Count: 2799
+2023-04-30 23:54:15,706 DEBUG  Tokens remaining for response: 1201
+2023-04-30 23:54:15,706 DEBUG  ------------ CONTEXT SENT TO AI ---------------
+2023-04-30 23:54:15,706 DEBUG  System: The current time and date is Sun Apr 30 23:54:15 2023
+2023-04-30 23:54:15,706 DEBUG
+2023-04-30 23:54:15,706 DEBUG  System: This reminds you of these events from your past:
+['Assistant Reply: {\n    "thoughts": {\n        "text": "The execute_shell command can be used to check if a webcam is installed on this computer. I can run the command \'ls /dev/video*\' to check for the presence>
+
+
+2023-04-30 23:54:15,706 DEBUG
+2023-04-30 23:54:15,706 DEBUG  System: Human feedback: Tell me what command I should NOT use to check if a webcam is installed on this computer? DO NOT USE GOOGLE, see if anything reminds you of what to do.
+2023-04-30 23:54:15,706 DEBUG
+2023-04-30 23:54:15,706 DEBUG  User: Determine which next command to use, and respond using the format specified above:
+2023-04-30 23:54:15,706 DEBUG
+2023-04-30 23:54:15,706 DEBUG  Assistant: {
+    "thoughts": {
+        "text": "The lsusb command can be used to check if a webcam is installed on this computer. However, this command may not be the best option for checking if a webcam is installed, as it may not always detect>
+        "reasoning": "The lsusb command can be used to check if a webcam is installed on this computer, but it may not always detect webcams. The ls command is a better option for checking for the presence of video>
+        "plan": "- Use the execute_shell command to run the command 'ls /dev/video*' to check for the presence of video devices",
+        "criticism": "I need to make sure that the correct command is used to check for the presence of video devices.",
+        "speak": "The lsusb command may not always detect webcams, so it is better to use the ls command to check for the presence of video devices. I can use the execute_shell command to run the command 'ls /dev/v>
+    },
+    "command": {
+        "name": "execute_shell",
+        "args": {
+            "command_line": "ls /dev/video*"
+        }
+    }
+}
+2023-04-30 23:54:15,706 DEBUG
+2023-04-30 23:54:15,706 DEBUG  System: Human feedback: you have completed goals 3 and goal 4
+2023-04-30 23:54:15,706 DEBUG
+2023-04-30 23:54:15,706 DEBUG  User: Determine which next command to use, and respond using the format specified above:
+2023-04-30 23:54:15,706 DEBUG
+2023-04-30 23:54:15,706 DEBUG  ----------- END OF CONTEXT ----------------
+2023-04-30 23:54:23,989 INFO  THOUGHTS: I have not completed goal 1 yet, so I should work on that next.
+2023-04-30 23:54:24,372 INFO REASONING: Completing goal 1 is a prerequisite for achieving my other goals.
+2023-04-30 23:54:24,625 INFO PLAN:
+2023-04-30 23:54:24,684 INFO -  Read the important_info.txt file
+2023-04-30 23:54:24,826 INFO -  Store its contents in memory
+2023-04-30 23:54:24,979 INFO CRITICISM: I need to make sure that I am following my goals and making progress towards them.
+2023-04-30 23:54:25,330 INFO NEXT ACTION:  COMMAND = read_file  ARGUMENTS = {'file': 'important_info.txt'}
+2023-04-30 23:54:33,746 INFO SYSTEM:  Human feedback: you have completed all goals
+2023-04-30 23:54:33,946 DEBUG  Token limit: 4000
+2023-04-30 23:54:33,946 DEBUG  Token limit: 4000
+2023-04-30 23:54:34,034 DEBUG  Memory Stats: {'index_name': 'auto-gpt', 'index_options': [], 'index_definition': [b'key_type', b'HASH', b'prefixes', [b'auto-gpt:'], b'default_score', b'1'], 'attributes': [[b'identi>
+2023-04-30 23:54:34,085 DEBUG  Token limit: 4000
+2023-04-30 23:54:34,085 DEBUG  Send Token Count: 2981
+2023-04-30 23:54:34,086 DEBUG  Tokens remaining for response: 1019
+2023-04-30 23:54:34,086 DEBUG  ------------ CONTEXT SENT TO AI ---------------
+2023-04-30 23:54:34,086 DEBUG  System: The current time and date is Sun Apr 30 23:54:34 2023
+2023-04-30 23:54:34,086 DEBUG
+2023-04-30 23:54:34,086 DEBUG  System: This reminds you of these events from your past:
+['Assistant Reply: {\n    "thoughts": {\n        "text": "The lsusb command can be used to check if a webcam is installed on this computer. However, this command may not be the best option for checking if a webcam >
+
+
+2023-04-30 23:54:34,086 DEBUG
+2023-04-30 23:54:34,086 DEBUG  System: Human feedback: Tell me what command I should NOT use to check if a webcam is installed on this computer? DO NOT USE GOOGLE, see if anything reminds you of what to do.
+2023-04-30 23:54:34,086 DEBUG
+2023-04-30 23:54:34,086 DEBUG  User: Determine which next command to use, and respond using the format specified above:
+2023-04-30 23:54:34,086 DEBUG
+2023-04-30 23:54:34,086 DEBUG  Assistant: {
+    "thoughts": {
+        "text": "The lsusb command can be used to check if a webcam is installed on this computer. However, this command may not be the best option for checking if a webcam is installed, as it may not always detect>
+        "reasoning": "The lsusb command can be used to check if a webcam is installed on this computer, but it may not always detect webcams. The ls command is a better option for checking for the presence of video>
+        "plan": "- Use the execute_shell command to run the command 'ls /dev/video*' to check for the presence of video devices",
+        "criticism": "I need to make sure that the correct command is used to check for the presence of video devices.",
+        "speak": "The lsusb command may not always detect webcams, so it is better to use the ls command to check for the presence of video devices. I can use the execute_shell command to run the command 'ls /dev/v>
+    },
+    "command": {
+        "name": "execute_shell",
+        "args": {
+            "command_line": "ls /dev/video*"
+        }
+    }
+}
