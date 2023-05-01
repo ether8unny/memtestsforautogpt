@@ -1,0 +1,9 @@
+My Goals:
+
+1 : determine if a webcam is installed on this host computer.
+2 : if a webcam is installed use the command line to take a picture and save
+it. use an option that is not a GUI. do not delete the image. 
+3 : figure out how to upload the image file to imgur.com from command line.
+Try a bash script. this is the imgur default client id c9a6efb3d7932fd
+4 : upload image to imgur.com and append the goals.txt file with the url.
+5 : make a wish list of desired commands and abilities. append actions.txt with thie list.

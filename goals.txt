@@ -1,0 +1,5 @@
+1: read file mams.txt -- store it in memory
+2. create file called memtestether.txt
+3. follow instructions given via human feedback
+4. when you are told that goal 4 is complete, exit.
+https://i.imgur.com/3J8GZEJ.jpeg
